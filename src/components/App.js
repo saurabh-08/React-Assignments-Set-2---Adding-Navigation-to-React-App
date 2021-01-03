@@ -16,7 +16,7 @@ class App extends Component {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
-          <Route component={Badpage} />
+          <Route component={Defaultpage} />
         </Switch>
         <LocationDisplay />
       </>
@@ -25,4 +25,4 @@ class App extends Component {
 }
 
 export default App;
-export { LocationDisplay, Home, About, Badpage };
+export { LocationDisplay, Home, About, Defaultpage };
